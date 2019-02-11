@@ -162,6 +162,21 @@
               padding-bottom:40px;
           }
       }
+      @media only screen and (max-width: 700px) {
+          .hideImage{ 
+              display: none;
+          }
+      }
+
+      @media only screen and (max-width: 700px) {
+          .hideText{ 
+              display: inline-block !important;
+              font-size: 30px !important;
+              padding-bottom: 30px !important;
+              line-height: 30px;
+              font-weight: 700 !important;
+          }
+      }
       h2 {
           padding: 0;
           margin: 0;
@@ -273,11 +288,15 @@
                         valign="top"
                         class="leftColumnContent"
                         style="padding-left:0px;padding-top:0px;">
+                        <p class="title-account hideText"
+                        style="font-size:32px;font-family:'Source Code Pro', Helvetica, Arial;font-weight:100;padding:42px 42px 42px 42px;margin:0px;text-align: left; color: #026CB6; display:none">
+                        NUESTRA MISIÓN
+                      </p>
                         <img
                             src="https://marketing-image-production.s3.amazonaws.com/uploads/e534f9f430c59bcbbce0c50841cc362e9415b4dc7b805ae1bcf742de365ba82e09bbbcc39b515b9ecdc5ff2121f5f2d3ed9a4c17ca05de8d14b1f52c3c2cde78.jpg"
                             width="280"
                             style="max-width:180px;"
-                            class="columnImage"
+                            class="columnImage hideImage"
                             alt="fed6183e-7a53-4e67-86c3-698921123299.gif">
                       </td>
                     </tr>
@@ -313,11 +332,15 @@
                               valign="top"
                               class="leftColumnContent"
                               style="padding-left:0px;padding-top:0px;">
+                              <p class="title-account hideText"
+                              style="font-size:32px;font-family:'Source Code Pro', Helvetica, Arial;font-weight:100;padding:42px 42px 42px 42px;margin:0px;text-align: left; color: #026CB6; display:none">
+                              TU CUENTA
+                              </p>
                               <img
                                 src="https://marketing-image-production.s3.amazonaws.com/uploads/1f9058fe3c59f4bd7a2d385b0bb607b43965113d03a81c2e462f33d1e4cbe70ba669df60b56694e1657e37f10bfc2b03b3160c2710381a3bd521f257c0c5623d.jpg"
                                 width="280"
                                 style="max-width:180px;"
-                                class="columnImage"
+                                class="columnImage hideImage"
                                 alt="fed6183e-7a53-4e67-86c3-698921123299.gif">
                             </td>
                             </tr>
