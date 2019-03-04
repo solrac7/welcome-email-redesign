@@ -1,4 +1,3 @@
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
   <head>
@@ -139,7 +138,8 @@
     
         .templateColumnContainer {
           display: block !important;
-          width: 100% !important;
+          width: calc(100% - 70px)!important;
+          margin: 0 auto !important;
         }
         
         .emailImage {
@@ -151,7 +151,6 @@
         .hideText{ 
           display: inline-block !important;
           font-size: 30px !important;
-          padding-bottom: 30px !important;
           line-height: 30px;
           font-weight: 700 !important;
           }
@@ -175,7 +174,7 @@
           padding: 3% !important;
           font-size: 18px !important;
           margin-bottom:80px;
-          width:60% !important;
+          width:90% !important;
         }
     
         .rrssicons{
@@ -196,7 +195,7 @@
         }
     
         .title-account{
-          padding: 40px 20px !important;
+          padding-bottom: 20px !important;
           margin:0px !important;
           text-align: center !important;
         }
@@ -205,23 +204,24 @@
           font-size: 16px !important;
           line-height: 125% !important;
           text-align: center !important;
-          padding-top: 0px 20px 40px 20px !important;
+          padding: 20px 0 !important;
         }
     
         .leftColumnContent {
           font-size: 16px !important;
           line-height: 125% !important;
           text-align: center;
-          padding: 0px 20px 0px 20px !important;
+          padding: 0px !important;
         }
     
         .description-account {
           font-size: 22px !important;
           line-height: 32px !important;
+          text-align: center !important;
         }
       }
     </style>
-  
+    
   </head>
     <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
       <div
@@ -243,8 +243,8 @@
               width="640"
               class="backgroundTable"
               style="height:100%;font-family:'Source Sans Pro', Helvetica, Arial, 'Sans-serif';font-size:16px;width:640px;color:#4E4E4E;margin-left:auto;margin-right:auto;margin-top:5px;margin-bottom:0;">
-              <tr>
-                <td style="width:100%;" width="100%">
+              <tr width="100%">
+                <td style="width:100%;" width="100%" align="left">
                   <div style="width:100%;text-align:center;margin-bottom:20px;">
                     <div style="width:100%;text-align:center;">
                       <img
@@ -252,7 +252,7 @@
                         src="https://marketing-image-production.s3.amazonaws.com/uploads/39b369f5147f7482605675b8b6bbbd9a5ed5f74f59ee7855e82be3b576b0a3b181adb6bb883e1f14a335adbe4737b263e55b3020750e6454c1e48f871a05974d.jpg"
                         style="border:0px; width:640px; height:auto; margin-top: 0px;padding-bottom: 20px"
                         width="640"
-                        alt="d0610559-7af2-471b-b64a-dab01c146d5f.jpg">
+                        alt="">
                     </div>
                   </div>
                 </td>
@@ -265,8 +265,11 @@
               width="640"
               class="backgroundTable"
               style="height:100%;font-family:'Source Sans Pro', Helvetica, Arial, 'Sans-serif';font-size:16px;width:640px;color:#4E4E4E;margin-left:auto;margin-right:auto;margin-top:30px;margin-bottom:0;">
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
               <tr>
-                <td align="center" valign="top" width="20%" class="templateColumnContainer">
+                <td align="center" valign="top" align="left" width="240" class="templateColumnContainer">
                   <table border="0" cellpadding="10" cellspacing="0" width="100%">
                     <tr>
                       <td
@@ -274,32 +277,33 @@
                         class="leftColumnContent"
                         style="padding-left:0px;padding-top:0px;">
                         <p class="title-account hideText"
-                        style="font-size:32px;font-family:'Source Code Pro', Helvetica, Arial;font-weight:100;padding:42px 42px 42px 42px;margin:0px;text-align: left; color: #026CB6; display:none">
+                        style="font-size:32px;font-family:'Source Code Pro', Helvetica, Arial;font-weight:100;margin:0px;text-align: left; color: #026CB6; display:none">
                         OUR MISSION
                       </p>
                         <img
                             src="https://marketing-image-production.s3.amazonaws.com/uploads/abdd21b76249e0647e8e72a4537897c015f6cdb2437b8960a96563e144eaf69ec52204f59fc0ec6cdb821654d792359cac7b6de7f2ff6c86d815fb5db746c9c1.jpg"
-                            width="280"
+                            width="180"
                             style="max-width:180px;"
                             class="columnImage hideImage"
-                            alt="fed6183e-7a53-4e67-86c3-698921123299.gif">
+                            alt="">
                       </td>
                     </tr>
                   </table>
                 </td>
-                <td align="center" valign="top" width="50%" class="templateColumnContainer">
+                <td align="center" valign="top" width="400" class="templateColumnContainer">
                   <table border="0" cellpadding="0" cellspacing="0" width="100%">
                     <tr>
-                      <td class="rightColumnContent">
+                      <td class="rightColumnContent" style="text-align: left">
                         <p
-                          style="font-size:22px;text-decoration:none;color:#4E4E4E;font-weight:400;line-height:32px;font-family:'Source Sans Pro', Helvetica, Arial;margin-top:0px;">
+                          style="font-size:20px;text-decoration:none;color:#4E4E4E;font-weight:400;line-height:28px;font-family:'Source Sans Pro', Helvetica, Arial;margin-top:0px;">
                           At ArchDaily, our mission is to help architects design a better world and
                           improve the quality of life for the billions of people that will move into
                           cities in the next decades.
                           <br><br>
                           We are committed to giving architects the
                           <span style="color:#026CB6">inspiration, knowledge, and tools</span>
-                          they need to achieve this.</p>
+                          they need to achieve this.
+                          </p>
                       </td>
                     </tr>
                   </table>
@@ -314,7 +318,10 @@
                     class="backgroundTable"
                     style="height:100%;font-family:'Source Sans Pro', Helvetica, Arial, 'Sans-serif';font-size:16px;width:640px;color:#4E4E4E;margin-left:auto;margin-right:auto;margin-top:75px;margin-bottom:0;">
                     <tr>
-                      <td align="center" valign="top" width="20%" class="templateColumnContainer">
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td align="center" valign="top" align="left" width="240" class="templateColumnContainer">
                         <table border="0" cellpadding="10" cellspacing="0" width="100%">
                           <tr>
                             <td
@@ -322,23 +329,23 @@
                               class="leftColumnContent"
                               style="padding-left:0px;padding-top:0px;">
                               <p class="title-account hideText"
-                        style="font-size:32px;font-family:'Source Code Pro', Helvetica, Arial;font-weight:100;padding:42px 42px 42px 42px;margin:0px;text-align: left; color: #026CB6; display:none">
-                        YOUR ACCOUNT
-                      </p>
+                              style="font-size:32px;font-family:'Source Code Pro', Helvetica, Arial;font-weight:100;margin:0px;text-align: left; color: #026CB6; display:none">
+                              YOUR ACCOUNT
+                              </p>
                               <img
                                 src="https://marketing-image-production.s3.amazonaws.com/uploads/ae0a20a71ab5b383e00af35b7919d34dec435142ebcc3c02251943af2ff466afee45357b6d5874b514c011d20e1c7bc426f848de68e3c90f54d6d58224efd3cc.jpg"
-                                width="280"
+                                width="180"
                                 style="max-width:180px;"
                                 class="columnImage hideImage"
-                                alt="fed6183e-7a53-4e67-86c3-698921123299.gif">
+                                alt="">
                             </td>
                             </tr>
                         </table>
                       </td>
-                      <td align="center" valign="top" width="50%" class="templateColumnContainer">
+                      <td align="center" valign="top" width="400" class="templateColumnContainer">
                         <table border="0" cellpadding="0" cellspacing="0" width="100%">
                           <tr>
-                            <td class="rightColumnContent">
+                            <td class="rightColumnContent" style="text-align: left">
                               <p
                                 style="font-size:18px;text-decoration:none;color:#4E4E4E;font-weight:400;line-height:24px;font-family:'Source Sans Pro', Helvetica, Arial;margin-top:0px;">
                                 Starting now, you’ll receive the latest architecture news, projects, and
@@ -365,74 +372,65 @@
                         </table>
                       </td>
                     </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                    </tr>
                 </table>
+                
                 <table
                   border="0"
-                  cellpadding="0"
+                  cellpadding="35"
                   cellspacing="0"
                   width="640"
-                  class="backgroundTable"
                   style="height:100%;font-family:'Source Sans Pro', Helvetica, Arial, 'Sans-serif';font-size:16px;width:640px;color:#4E4E4E;margin-left:auto;margin-right:auto;margin-top:70px;margin-bottom:0;background-color: #F1F1F1;">
-                  <tr width="100%">
-                    <th width="100%" colspan="2">
-                      <p class="title-account"
-                        style="font-size:32px;font-family:'Source Code Pro', Helvetica, Arial;font-weight:100;padding:42px 42px 42px 42px;margin:0px;text-align: left; color: #026CB6">
-                        START USING YOUR ACCOUNT
-                      </p>
-                    </th>
+                  <tr>
+                    <td colspan="2" class="title-account" width="100%" style="font-size:32px;font-family:'Source Code Pro', Helvetica, Arial;font-weight:100;margin:0px;text-align:left; color: #026CB6; width:100%">
+                      START USING YOUR ACCOUNT
+                    </td>
                   </tr>
-                  <td align="center" valign="top" width="50%" class="templateColumnContainer">
-                    <table border="0" cellpadding="10" cellspacing="0" width="100%">
+                  <tr>
+                  <td align="center" valign="center" width="50%" class="templateColumnContainer">
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
                       <tr>
                         <td
                           valign="top"
-                          class="leftColumnContent"
-                          style="padding-left:0px;padding:0px 30px 30px 42px;">
+                          class="leftColumnContent">
                           <p
                             class="description-account"
-                            style="text-decoration:none;color:#4E4E4E;font-size:18px;font-weight:200;line-height:24px;font-family:'Source Sans Pro', Helvetica, Arial;margin-top:0">Access your account and start following the subjects that interest you most</p>
+                            style="text-decoration:none;color:#4E4E4E;font-size:18px;font-weight:200;line-height:24px;font-family:'Source Sans Pro', Helvetica, Arial;margin-top:0; text-align: left">Access your account and start following the subjects that interest you most.</p>
                         </td>
                       </tr>
                     </table>
                   </td>
-                  <td align="center" valign="top" width="50%" class="templateColumnContainer">
+                  <td align="center" valign="center" width="50%" class="templateColumnContainer">
                     <table border="0" cellpadding="0" cellspacing="0" width="100%">
                       <tr>
-                        <td class="rightColumnContent" style="text-align: center">
-                          <a
-                            class="ad-cta-btn"
-                            href="https://www.plataformaarquitectura.cl/cl/tag/confort-y-sustentabilidad-en-arquitectura"
-                            style="background:#026CB6;color:#FFFFFF;text-decoration:none;font-size:16px;font-weight:200;padding:10px;border-radius:5px;width: 70%; display: inline-block"
-                            target="_blank">My Account »</a>
+                        <td class="rightColumnContent" style="background:#026CB6;color:#FFFFFF;text-decoration:none;font-size:16px;font-weight:200;padding:10px;border-radius:5px;width: 70%; text-align: center;">
+                          <a href="https://www.plataformaarquitectura.cl/cl/tag/confort-y-sustentabilidad-en-arquitectura" target="_blank" style="color:#FFFFFF">My Account  »</a>
                         </td>
                       </tr>
                     </table>
                   </td>
                 </tr>
               <tr>
-                <td align="center" valign="top" width="50%" class="templateColumnContainer">
-                  <table border="0" cellpadding="10" cellspacing="0" width="100%">
+                <td align="center" valign="center" width="50%" class="templateColumnContainer">
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
                     <tr>
                       <td
                         valign="top"
-                        class="leftColumnContent"
-                        style="padding-left:0px;padding:0px 30px 30px 42px;">
+                        class="leftColumnContent">
                         <p
                           class="description-account"
-                          style="text-decoration:none;color:#4E4E4E;font-size:18px;font-weight:200;line-height:24px;font-family:'Source Sans Pro', Helvetica, Arial;margin-top:0">Manage your newsletter subscriptions in your account settings</p>
+                          style="text-decoration:none;color:#4E4E4E;font-size:18px;font-weight:200;line-height:24px;font-family:'Source Sans Pro', Helvetica, Arial;margin-top:0; text-align: left">Manage your newsletter subscriptions in your account settings.</p>
                       </td>
                     </tr>
                   </table>
                 </td>
-                <td align="center" valign="top" width="50%" class="templateColumnContainer">
+                <td align="center" valign="center" width="50%" class="templateColumnContainer">
                   <table border="0" cellpadding="0" cellspacing="0" width="100%">
                     <tr>
-                      <td class="rightColumnContent" style="text-align: center">
-                        <a
-                          class="ad-cta-btn"
-                          href="https://www.plataformaarquitectura.cl/cl/tag/confort-y-sustentabilidad-en-arquitectura"
-                          style="background:#026CB6;color:#FFFFFF;text-decoration:none;font-size:16px;font-weight:200;padding:10px;border-radius:5px;width: 70%; display: inline-block"
-                          target="_blank">My Settings »
+                      <td class="rightColumnContent" style="background:#026CB6;color:#FFFFFF;text-decoration:none;font-size:16px;font-weight:200;padding:10px;border-radius:5px;width: 70%; text-align: center;">
+                        <a href="https://www.plataformaarquitectura.cl/cl/tag/confort-y-sustentabilidad-en-arquitectura" style="color:#FFFFFF;" target="_blank">My Settings »
                         </a>
                       </td>
                     </tr>
@@ -440,30 +438,25 @@
                 </td>
               </tr>
               <tr>
-                <td align="center" valign="top" width="50%" class="templateColumnContainer">
-                  <table border="0" cellpadding="10" cellspacing="0" width="100%">
+                <td align="center" valign="center" width="50%" class="templateColumnContainer">
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
                     <tr>
                       <td
                         valign="top"
-                        class="leftColumnContent"
-                        style="padding-left:0px;padding:0px 30px 30px 42px;">
+                        class="leftColumnContent">
                         <p
                           class="description-account"
-                          style="text-decoration:none;color:#4E4E4E;font-size:18px;font-weight:200;line-height:24px;font-family:'Source Sans Pro', Helvetica, Arial;margin-top:0">Save inspiring products for your future projects
+                          style="text-decoration:none;color:#4E4E4E;font-size:18px;font-weight:200;line-height:24px;font-family:'Source Sans Pro', Helvetica, Arial;margin-top:0; text-align: left">Save inspiring products for your future projects.
                         </p>
                       </td>
                     </tr>
                   </table>
                 </td>
-                <td align="center" valign="top" width="50%" class="templateColumnContainer">
+                <td align="center" valign="center" width="50%" class="templateColumnContainer">
                   <table border="0" cellpadding="0" cellspacing="0" width="100%">
                       <tr>
-                        <td class="rightColumnContent" style="text-align: center">
-                          <a
-                            class="ad-cta-btn"
-                            href="https://www.plataformaarquitectura.cl/cl/tag/confort-y-sustentabilidad-en-arquitectura"
-                            style="background:#026CB6;color:#FFFFFF;text-decoration:none;font-size:16px;font-weight:200;padding:10px;border-radius:5px;width: 70%; display: inline-block"
-                            target="_blank">Discover our Catalog »</a>
+                        <td class="rightColumnContent" style="background:#026CB6;color:#FFFFFF;text-decoration:none;font-size:16px;font-weight:200;padding:10px;border-radius:5px;width: 70%; text-align: center;">
+                          <a href="https://www.plataformaarquitectura.cl/cl/tag/confort-y-sustentabilidad-en-arquitectura" style="color:#FFFFFF;" target="_blank">Discover our Catalog »</a>
                           </td>
                       </tr>
                   </table>
@@ -472,127 +465,107 @@
               <tr>
                 <td
                   align="center"
-                  valign="top"
+                  valign="center"
                   width="50%"
                   class="templateColumnContainer"
                   >
-                  <table border="0" cellpadding="10" cellspacing="0" width="100%">
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
                     <tr>
-                      <td valign="top" class="leftColumnContent" style="padding:0px 30px 30px 42px;">
+                      <td valign="top" class="leftColumnContent">
                         <p class="description-account"
-                          style="text-decoration:none;color:#4E4E4E;font-size:18px;font-weight:200;line-height:24px;font-family:'Source Sans Pro', Helvetica, Arial;margin-top:0">Have a project you'd like to publish on ArchDaily?
+                          style="text-decoration:none;color:#4E4E4E;font-size:18px;font-weight:200;line-height:24px;font-family:'Source Sans Pro', Helvetica, Arial;margin-top:0; text-align: left">Have a project you'd like to publish on ArchDaily?.
                         </p>
                       </td>
                     </tr>
                   </table>
                 </td>
-                <td align="center" valign="top" width="50%" class="templateColumnContainer">
-                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                <td align="center" valign="center" width="50%" class="templateColumnContainer">
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%" height="auto">
                     <tr>
-                      <td class="rightColumnContent" style="text-align: center;padding-top:20px;">
-                        <a
-                          class="ad-cta-btn"
-                          href="https://www.plataformaarquitectura.cl/cl/tag/confort-y-sustentabilidad-en-arquitectura"
-                          style="background:#026CB6;color:#FFFFFF;text-decoration:none;font-size:16px;font-weight:200;padding:10px;  border-radius: 5px;width: 70%; display: inline-block"
-                          target="_blank">Submit my Project »
-                        </a>
+                      <td class="rightColumnContent" style="background:#026CB6;color:#FFFFFF;text-decoration:none;font-size:16px;font-weight:200;padding:10px;border-radius:5px;width: 70%; text-align: center;">
+                        <a href="https://www.plataformaarquitectura.cl/cl/tag/confort-y-sustentabilidad-en-arquitectura" style="color:#FFFFFF;" target="_blank">Submit my Project »</a>
                       </td>
                     </tr>
                   </table>
                 </td>
               </tr>
           </table>
-            <table border="0" cellpadding="0" cellspacing="0" style="padding-bottom:100px">
-                <tr colspan="5">
-                    <p
-                        style="padding-top:30px;text-decoration:none;color:#4E4E4E;font-size:18px;font-weight:600;line-height:24px;font-family:'Source Sans Pro', Helvetica, Arial;">Follow Us:</p>
+            <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td valign="center" height="100" style="text-decoration:none;color:#4E4E4E;font-size:18px;font-weight:600;font-family:'Source Sans Pro', Helvetica, Arial; text-align: center; width:100%;">
+                      Follow Us:
+                    </td>
+                    
                 </tr>
-                <tr style="margin-bottom: 400px;">
-                    <td style="padding:0px 20px 0px 20px;">
-                        <a href="https://twitter.com/ArchDaily" target="_blank">
-                            <img
-                                style="max-width:30px"
-                                src="https://marketing-image-production.s3.amazonaws.com/uploads/a03d24173a00acc8dd75f3ba3e7dc7eded2a5d33cb1ed483b77d34fea234557a27a302ba89807c36964bdd4078f02c7e38285df207651ebf18c26078f82ea2ee.png"
-                                alt="">
-                        </a>
-                    </td>
-                    <td style="padding:0px 20px 0px 20px;">
-                        <a href="https://www.instagram.com/archdaily/" target="_blank">
-                            <img
-                                style="max-width:30px"
-                                src="https://marketing-image-production.s3.amazonaws.com/uploads/d0cc1fa1f7e4263375c5fff1b5a59815620bbb2bd22cbe915c7852da9eed74ae76c0354004b1a9a7dfadd16b576b53968d3e03b311ec181f447018a61e393770.png"
-                                alt="">
-                        </a>
-                    </td>
-                    <td style="padding:0px 20px 0px 20px;">
-                        <a href="https://www.pinterest.cl/archdaily/" target="_blank">
-                            <img
-                                style="max-width:30px"
-                                src="https://marketing-image-production.s3.amazonaws.com/uploads/c8daa941871c935b425861e2294e8d5d20daf3b5d9bf583aff0249875c025f470bf1c5041704b5368b694df7806b851c3fee6097c1ec218481f91283368f4fea.png"
-                                alt="">
-                        </a>
-                    </td>
-                    <td style="padding:0px 20px 0px 20px;">
-                        <a href="https://www.youtube.com/user/archdaily" target="_blank">
-                            <img
-                                style="max-width:30px"
-                                src="https://marketing-image-production.s3.amazonaws.com/uploads/c995ec00f8c096603414fed3746dcde0ec88e254caba342a401b88f8ed19e220dd2d65bd0daeb85733f25738c9a81d7b62ef2b2daf176ee84f5ce8c3ac4ea606.png"
-                                alt="">
-                        </a>
-                    </td>
-                    <td style="padding:0px 20px 0px 20px;">
-                        <a href="https://www.facebook.com/ArchDaily/" target="_blank">
-                            <img
-                                style="max-height:30px"
-                                src="https://marketing-image-production.s3.amazonaws.com/uploads/75ccf8e693a9089aa1b9574c8c3449cbd877bd529dc77c9befd2f08e13adea9029d54bb921024c4baa94263a264f441b866658ef76f508e4b098f1d5fbe2b26a.png"
-                                alt="">
-                        </a>
+                <tr>
+                	<td>
+                        <table width="350" cellspacing="0" cellspacing="0" border="0">
+                		    <tr>
+                                <td class="rrssicons" width="70" align="center">
+                                    <a href="https://twitter.com/ArchDaily" target="_blank">
+                                        <img style="max-width:30px" width="30" src="https://marketing-image-production.s3.amazonaws.com/uploads/a03d24173a00acc8dd75f3ba3e7dc7eded2a5d33cb1ed483b77d34fea234557a27a302ba89807c36964bdd4078f02c7e38285df207651ebf18c26078f82ea2ee.png" alt="">
+                                    </a>
+                                </td>
+                                <td class="rrssicons" width="70" align="center">
+                                    <a href="https://www.instagram.com/archdaily/" target="_blank">
+                                        <img style="max-width:30px" width="30" src="https://marketing-image-production.s3.amazonaws.com/uploads/d0cc1fa1f7e4263375c5fff1b5a59815620bbb2bd22cbe915c7852da9eed74ae76c0354004b1a9a7dfadd16b576b53968d3e03b311ec181f447018a61e393770.png" alt="">
+                                    </a>
+                                </td>
+                                <td class="rrssicons" width="70" align="center">
+                                    <a href="https://www.pinterest.cl/archdaily/" target="_blank">
+                                        <img style="max-width:30px" width="30" src="https://marketing-image-production.s3.amazonaws.com/uploads/c8daa941871c935b425861e2294e8d5d20daf3b5d9bf583aff0249875c025f470bf1c5041704b5368b694df7806b851c3fee6097c1ec218481f91283368f4fea.png" alt="">
+                                    </a>
+                                </td>
+                                <td class="rrssicons" width="70" align="center">
+                                    <a href="https://www.youtube.com/user/archdaily" target="_blank">
+                                        <img style="max-width:30px" width="30" src="https://marketing-image-production.s3.amazonaws.com/uploads/c995ec00f8c096603414fed3746dcde0ec88e254caba342a401b88f8ed19e220dd2d65bd0daeb85733f25738c9a81d7b62ef2b2daf176ee84f5ce8c3ac4ea606.png" alt="">
+                                    </a>
+                                </td>
+                                <td class="rrssicons" width="70" align="center">
+                                    <a href="https://www.facebook.com/ArchDaily/" target="_blank">
+                                        <img style="max-height:30px" width="17" src="https://marketing-image-production.s3.amazonaws.com/uploads/75ccf8e693a9089aa1b9574c8c3449cbd877bd529dc77c9befd2f08e13adea9029d54bb921024c4baa94263a264f441b866658ef76f508e4b098f1d5fbe2b26a.png" alt="">
+                                    </a>
+                                </td>
+                            </tr>
+                	    </table>
                     </td>
                 </tr>
             </table>
-            <p style="padding:10px"></p>
-        </center>
-        <!-- FOOTER INICIO -->
-        <table
-            cellspacing="0"
-            cellpadding="0"
-            style="display:block;height:50px;width:100%;">
+            <table>
+            	<tr>
+                    <td height="40">&nbsp;</td>
+                </tr>
+            </table>
+            
+            <table cellspacing="0" cellpadding="0" border="0" width="100%" style="background:#F1F1F1;">
             <tr>
-                <td>
-                    <img
-                        src="https://gallery.mailchimp.com/240fd05fed14bcc1d00032012/images/b939baeb-d36e-456f-b73f-4545dd395a9a.jpg"
-                        style="height: 50px; width: 100%"
-                        alt="b939baeb-d36e-456f-b73f-4545dd395a9a.jpg">
+                <td height="50" valign="bottom">
+                    <img src="https://gallery.mailchimp.com/240fd05fed14bcc1d00032012/images/b939baeb-d36e-456f-b73f-4545dd395a9a.jpg" height="50" width="100%" alt="" style="height: 50px;">
                 </td>
-                <td style="width:50px;">
-                    <img
-                        src="https://gallery.mailchimp.com/240fd05fed14bcc1d00032012/images/1b713444-3a72-4768-aad3-c8273352d005.jpg"
-                        style="height: 50px;"
-                        width="50"
-                        alt="1b713444-3a72-4768-aad3-c8273352d005.jpg">
+                <td width="50" valign="top" style="background:#F1F1F1; height:50px !important; width:50px !important" >
+                    <img src="https://gallery.mailchimp.com/240fd05fed14bcc1d00032012/images/1b713444-3a72-4768-aad3-c8273352d005.jpg" height="50" width="50" alt="" style="height:50px; width:50px">
                 </td>
-                <td>
+                <td height="50" valign="bottom">
                     <img
-                        src="https://gallery.mailchimp.com/240fd05fed14bcc1d00032012/images/b939baeb-d36e-456f-b73f-4545dd395a9a.jpg"
-                        style="height: 50px; width: 100%"
-                        alt="b939baeb-d36e-456f-b73f-4545dd395a9a.jpg">
+                        src="https://gallery.mailchimp.com/240fd05fed14bcc1d00032012/images/b939baeb-d36e-456f-b73f-4545dd395a9a.jpg" height="50" width="100%" alt="" style="height: 50px;">
                 </td>
             </tr>
+             <tr>
+             	<td class="ad-footer-copy" colspan="3" 
+            style="background:#F1F1F1;color:#656565;font-size:11px;font-family:'Source Sans Pro', Helvetica, Arial; padding:20px;text-align:center; line-height:18px; width:100%">
+            ArchDaily 2019<br>Discover Architecture<br>© All rights reserved.
+                    <!-- <div> <a href="*|UNSUB|*"
+                    style="margin:0;line-height:18px;display:block;color:#026CB6;text-decoration:none;"
+                    >Remove me from this list</a> </div> <div
+                    style="margin-bottom:20px;width:100%;"> <a href="*|UPDATE_PROFILE|*"
+                    style="margin:0;line-height:18px;display:block;color:#026CB6;text-decoration:none;"
+                    >Update subscription preferences</a> </div> -->
+             	</td>
+             </tr>
         </table>
-        <div
-            class="ad-footer-copy"
-            style="background:#F1F1F1;color:#656565;font-size:11px;font-family:'Source Sans Pro', Helvetica, Arial;padding:20px 20% 30px;text-align:center;">
-            <div style="margin:0;padding:0;line-height:18px;">ArchDaily 2019<br>
-                Discover Architecture<br>
-                © All rights reserved.</div>
-            <div style="margin:0;padding:0;line-height:18px;"></div>
-            <!-- <div> <a href="*|UNSUB|*"
-            style="margin:0;line-height:18px;display:block;color:#026CB6;text-decoration:none;"
-            >Remove me from this list</a> </div> <div
-            style="margin-bottom:20px;width:100%;"> <a href="*|UPDATE_PROFILE|*"
-            style="margin:0;line-height:18px;display:block;color:#026CB6;text-decoration:none;"
-            >Update subscription preferences</a> </div> -->
-        </div>
+        </center>
+          
+         
         <!-- FOOTER FINAL -->
     </div>
 </body>
