@@ -98,14 +98,14 @@
     
         .backgroundTable {
             padding: 0 2% !important;
-            width: 96% !important;
+            width: 100% !important;
         }
-    
+          
         .ad-content-image,
         .ad-cta-btn,
         .ad-doing-image,
         .wrapper {
-          max-width: 100% !important;
+          width: 100% !important;
         }
     
         .emailImage {
@@ -119,7 +119,7 @@
         }
     
         .ad-header-column-big {
-          width: 96% !important;
+          width: 100% !important;
         }
     
         .ad-header-browser,
@@ -130,16 +130,13 @@
         h1 {
           font-size: 1.5em;
         }
-    
-        .backgroundTable {
-          padding: 0 2% !important;
-          width: 96% !important;
-        }
+
     
         .templateColumnContainer {
           display: block !important;
           width: calc(100% - 70px)!important;
           margin: 0 auto !important;
+          padding-right: 0 !important;
         }
         
         .emailImage {
@@ -195,16 +192,17 @@
         }
     
         .title-account{
-          padding-bottom: 20px !important;
+          padding: 20px !important;
           margin:0px !important;
           text-align: center !important;
+          font-weight: 400 !important;
         }
     
         .rightColumnContent {
           font-size: 16px !important;
           line-height: 125% !important;
           text-align: center !important;
-          padding: 20px 0 !important;
+          padding: 10px 0 !important;
         }
     
         .leftColumnContent {
@@ -218,7 +216,13 @@
           font-size: 22px !important;
           line-height: 32px !important;
           text-align: center !important;
+          margin-bottom: 30px !important;
+          font-weight: 400 !important;
         }
+          
+          .ad-cta-container{
+          	margin-bottom: 50px !important;
+          }
       }
     </style>
     
@@ -264,7 +268,7 @@
               cellspacing="0"
               width="640"
               class="backgroundTable"
-              style="height:100%;font-family:'Source Sans Pro', Helvetica, Arial, 'Sans-serif';font-size:16px;width:640px;color:#4E4E4E;margin-left:auto;margin-right:auto;margin-top:30px;margin-bottom:0;">
+              style="height:100%;font-family:'Source Sans Pro', Helvetica, Arial, 'Sans-serif';font-size:16px;width:640px;color:#4E4E4E;margin-left:auto;margin-right:auto;margin-bottom:0;">
                 <tr>
                     <td>&nbsp;</td>
                 </tr>
@@ -303,6 +307,9 @@
                   </table>
                 </td>
               </tr>
+              <tr>
+                <td>&nbsp;</td>
+            </tr>
           </table>
                 <table
                     border="0"
@@ -310,7 +317,7 @@
                     cellspacing="0"
                     width="640"
                     class="backgroundTable"
-                    style="height:100%;font-family:'Source Sans Pro', Helvetica, Arial, 'Sans-serif';font-size:16px;width:640px;color:#4E4E4E;margin-left:auto;margin-right:auto;margin-top:75px;margin-bottom:0;">
+                    style="height:100%;font-family:'Source Sans Pro', Helvetica, Arial, 'Sans-serif';font-size:16px;width:640px;color:#4E4E4E;margin-left:auto;margin-right:auto;margin-bottom:0;">
                     <tr>
                         <td>&nbsp;</td>
                     </tr>
@@ -366,94 +373,97 @@
                     </tr>
                 </table>
                 
-                <table
-                  border="0"
-                  cellpadding="35"
-                  cellspacing="0"
-                  width="640"
-                  style="height:100%;font-family:'Source Sans Pro', Helvetica, Arial, 'Sans-serif';font-size:16px;width:640px;color:#4E4E4E;margin-left:auto;margin-right:auto;margin-top:70px;margin-bottom:0;background-color: #F1F1F1;">
-                  <tr>
-                    <td colspan="2" class="title-account" width="100%" style="font-size:32px;font-family:'Source Code Pro', Helvetica, Arial;font-weight:100;margin:0px;text-align:left; color: #026CB6; width:100%">
-                      开始使用您的账户
-                    </td>
-                  </tr>
-                  <tr>
-                  <td align="center" valign="center" width="50%" class="templateColumnContainer">
-                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                      <tr>
-                        <td
-                          valign="top"
-                          class="leftColumnContent">
-                          <p
-                            class="description-account"
-                            style="text-decoration:none;color:#4E4E4E;font-size:18px;font-weight:200;line-height:24px;font-family:'Source Sans Pro', Helvetica, Arial;margin-top:0; text-align: left">进入账号，开始关注您喜欢的主题内容</p>
-                        </td>
-                      </tr>
-                    </table>
-                  </td>
-                  <td align="center" valign="center" width="50%" class="templateColumnContainer">
-                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                      <tr>
-                        <td class="rightColumnContent" style="background:#026CB6;color:#FFFFFF;text-decoration:none;font-size:16px;font-weight:200;padding:10px;border-radius:5px;width: 70%; text-align: center;">
-                          <a href="https://www.plataformaarquitectura.cl/cl/tag/confort-y-sustentabilidad-en-arquitectura" target="_blank" style="color:#FFFFFF">账号  »</a>
-                        </td>
-                      </tr>
-                    </table>
+            <table
+                border="0"
+                cellpadding="0"
+                cellspacing="0"
+                width="640"
+                class="backgroundTable"
+                style="height:100%;font-family:'Source Sans Pro', Helvetica, Arial, 'Sans-serif';font-size:16px;width:640px;color:#4E4E4E;margin-left:auto;margin-right:auto;;margin-bottom:0;background-color: #F1F1F1;">
+                <tr>
+                  <td colspan="2" class="title-account" width="100%" style="font-size:32px;font-family:'Source Code Pro', Helvetica, Arial;font-weight:100;margin:0px;text-align:left; color: #026CB6; width:100%; padding: 20px">
+                    开始使用您的账户
                   </td>
                 </tr>
-              <tr>
+                <tr>
                 <td align="center" valign="center" width="50%" class="templateColumnContainer">
                   <table border="0" cellpadding="0" cellspacing="0" width="100%">
                     <tr>
                       <td
-                        valign="top"
-                        class="leftColumnContent">
+                        valign="center"
+                        class="leftColumnContent"
+                        style="padding: 20px">
                         <p
                           class="description-account"
-                          style="text-decoration:none;color:#4E4E4E;font-size:18px;font-weight:200;line-height:24px;font-family:'Source Sans Pro', Helvetica, Arial;margin-top:0; text-align: left">在账号设置中管理每日资讯</p>
+                          style="text-decoration:none;color:#4E4E4E;font-size:18px;font-weight:200;line-height:24px;font-family:'Source Sans Pro', Helvetica, Arial;margin-top:0; text-align: left; margin-bottom: 0;">进入账号，开始关注您喜欢的主题内容</p>
                       </td>
                     </tr>
                   </table>
                 </td>
-                <td align="center" valign="center" width="50%" class="templateColumnContainer">
-                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                <td align="center" valign="center" width="50%" class="templateColumnContainer" style="padding-right: 20px">
+                  <table border="0" cellpadding="0" cellspacing="0" width="100%" class="ad-cta-container">
                     <tr>
                       <td class="rightColumnContent" style="background:#026CB6;color:#FFFFFF;text-decoration:none;font-size:16px;font-weight:200;padding:10px;border-radius:5px;width: 70%; text-align: center;">
-                        <a href="https://www.plataformaarquitectura.cl/cl/tag/confort-y-sustentabilidad-en-arquitectura" style="color:#FFFFFF;" target="_blank">设置 »
-                        </a>
+                        <a href="https://www.plataformaarquitectura.cl/cl/tag/confort-y-sustentabilidad-en-arquitectura" target="_blank" style="color:#FFFFFF; font-weight: 400;">账号 »</a>
                       </td>
                     </tr>
                   </table>
                 </td>
               </tr>
-              <tr>
-                <td
-                  align="center"
-                  valign="center"
-                  width="50%"
-                  class="templateColumnContainer"
-                  >
-                  <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                    <tr>
-                      <td valign="top" class="leftColumnContent">
-                        <p class="description-account"
-                          style="text-decoration:none;color:#4E4E4E;font-size:18px;font-weight:200;line-height:24px;font-family:'Source Sans Pro', Helvetica, Arial;margin-top:0; text-align: left">想发布项目在建日筑闻 (ArchDaily)上吗？
-                        </p>
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-                <td align="center" valign="center" width="50%" class="templateColumnContainer">
-                  <table border="0" cellpadding="0" cellspacing="0" width="100%" height="auto">
-                    <tr>
-                      <td class="rightColumnContent" style="background:#026CB6;color:#FFFFFF;text-decoration:none;font-size:16px;font-weight:200;padding:10px;border-radius:5px;width: 70%; text-align: center;">
-                        <a href="https://www.plataformaarquitectura.cl/cl/tag/confort-y-sustentabilidad-en-arquitectura" style="color:#FFFFFF;" target="_blank">提交我的项目 »</a>
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-          </table>
+            <tr>
+              <td align="center" valign="center" width="50%" class="templateColumnContainer">
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                    <td
+                      valign="center"
+                      class="leftColumnContent"
+                        style="padding: 20px">
+                      <p
+                        class="description-account"
+                        style="text-decoration:none;color:#4E4E4E;font-size:18px;font-weight:200;line-height:24px;font-family:'Source Sans Pro', Helvetica, Arial;margin-top:0; text-align: left; margin-bottom: 0;">在账号设置中管理每日资讯</p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              <td align="center" valign="center" width="50%" class="templateColumnContainer" style="padding-right: 20px">
+                <table border="0" cellpadding="0" cellspacing="0" width="100%" class="ad-cta-container">
+                  <tr>
+                    <td class="rightColumnContent" style="background:#026CB6;color:#FFFFFF;text-decoration:none;font-size:16px;font-weight:200;padding:10px;border-radius:5px;width: 70%; text-align: center;">
+                      <a href="https://www.plataformaarquitectura.cl/cl/tag/confort-y-sustentabilidad-en-arquitectura" style="color:#FFFFFF; font-weight: 400;" target="_blank">设置 »
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td
+                align="center"
+                valign="center"
+                width="50%"
+                class="templateColumnContainer"
+                >
+                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                    <td valign="center" class="leftColumnContent" style="padding: 20px">
+                      <p class="description-account"
+                        style="text-decoration:none;color:#4E4E4E;font-size:18px;font-weight:200;line-height:24px;font-family:'Source Sans Pro', Helvetica, Arial;margin-top:0; text-align: left; margin-bottom: 0;">想发布项目在建日筑闻 (ArchDaily)上吗
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              <td align="center" valign="center" width="50%" class="templateColumnContainer" style="padding-right: 20px">
+                <table border="0" cellpadding="0" cellspacing="0" width="100%" class="ad-cta-container">
+                  <tr>
+                    <td class="rightColumnContent" style="background:#026CB6;color:#FFFFFF;text-decoration:none;font-size:16px;font-weight:200;padding:10px;border-radius:5px;width: 70%; text-align: center;">
+                      <a href="https://www.plataformaarquitectura.cl/cl/tag/confort-y-sustentabilidad-en-arquitectura" style="color:#FFFFFF; font-weight: 400;" target="_blank">提交我的项目 »</a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+        </table>
             <table border="0" cellpadding="0" cellspacing="0">
                 <tr>
                     <td valign="center" height="100" style="text-decoration:none;color:#4E4E4E;font-size:18px;font-weight:600;font-family:'Source Sans Pro', Helvetica, Arial; text-align: center; width:100%;">
